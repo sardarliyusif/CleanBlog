@@ -1,0 +1,27 @@
+.blog{
+    margin-bottom: 2rem !important;
+    &__link{
+        &__name{
+            color: #212529;
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-align: justify;
+            max-width: 600px;
+        }
+        &__info{
+            font-size: 1.75rem;
+            color: #212529;
+            margin-bottom: 1rem;
+        }
+        &:hover{
+            .blog__link__name{
+                color: #0085a1;
+            }
+        }
+    }
+    &__date{
+        color: #868e96;
+        font-size: 1.25rem;
+    }
+}
